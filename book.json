@@ -1,0 +1,33 @@
+{
+    "title": "Notes",
+    "description": "Linux Pythonn Net Hack",
+    "language": "zh-hans",
+    "plugins": [
+	"-lunr",
+	"-search",
+	"search-plus",
+	"expandable-chapters-small",
+	"splitter",
+	"tbfed-pagefooter"
+
+    ],
+    "pluginsConfig": {
+	    "theme-default": {
+            "showLevel": true
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy coolkabc",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    },
+    "links": {
+        "gitbook": false,
+        "sharing": {
+            "google": false,
+            "facebook": false,
+            "twitter": false,
+            "all": false
+        }
+    }
+}
