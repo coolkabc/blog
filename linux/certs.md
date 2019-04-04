@@ -20,6 +20,12 @@ maos@dev:~/ssl$ openssl verify -CAfile certs/ca.crt certs/server1.crt
 certs/server1.crt: OK
 ```
 
+## 查看吊销列表
+
+```
+openssl crl -in crl.der -text -noout
+```
+
 ## 私钥去掉密码
 
 ```
