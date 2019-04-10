@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Linux](linux/readme.md)
+  * [Fun](linux/fun.md)
   * [OpenSSL-自建CA](linux/openssl-ca.md)
     * [证书速查](linux/certs.md)
 * [Net](net/readme.md)
