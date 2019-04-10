@@ -1,5 +1,9 @@
 # 网络分层
 
+OSI: Open System Interconnetcion Reference Model. 开放式系统互联通信参考模型. 由国际标准化组织提出.
+
+ISO: International Organization for Standardizaion. 国际标准化组织.
+
 <table>
 	<tr>
 		<td>OSI 七层</td>
