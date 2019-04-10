@@ -33,6 +33,31 @@
 
 ![TCP_HEADER](../imgs/net_tcp_header.jpg)
 
+* Source port: 16 bit 源端口. 0 ~ 65535
+* Destination port: 16 bit 源端口. 0 ~ 65535
+* Sequence number: 32 bit 序号. 成功发送的数据位数. SYN和FIN也要占一位
+  * 如果SYN Flag设置的1, 则代表这是初始序号
+  * 如果SYN Flag设置的0, 则代表这是累积序号
+* Acknowledggment number: 32 bit 确认号. 成功接收的位数. SYN和FIN也要占一位
+  * 如果ACK Flage设置为1, 代表之前的n-1数据已收到.
+* Data offset: 4 bit 数据偏移字段.
+* Reserved: 3 bit 保留字段. 都设置为0
+* Flags: 9 bit
+  + NS:
+  + CWR:
+  + ECE:
+  + URG:
+  + ACK:
+  + PSH:
+  + RST:
+  + SYN:
+  + FIN:
+* Window size: 16 bit 滑动窗口.
+* Checksum: 16 bit 头部校验和.
+* Urgent pointer: 16 bit 紧急指针.
+* Options: 可选字段
+* Padding: 填充字段, 确保是32 bit的倍数.
+
 ### UDP HEADER
 
 [wiki: User_Datagram_Protocol](https://en.wikipedia.org/wiki/User_Datagram_Protocol)
