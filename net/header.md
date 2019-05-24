@@ -43,15 +43,15 @@
 * Data offset: 4 bit 数据偏移字段.
 * Reserved: 3 bit 保留字段. 都设置为0
 * Flags: 9 bit
-  + NS:
-  + CWR:
-  + ECE:
-  + URG:
-  + ACK:
-  + PSH:
-  + RST:
-  + SYN:
-  + FIN:
+  + NS: Nonce Sum
+  + CWR: Congestion Window Reduced 拥塞窗口减少
+  + ECE: ECN-Echo
+  + URG: 紧急指针有效
+  + ACK: 确认序号有效
+  + PSH: 接收方应该尽快将这个报文段交给应用层
+  + RST: 重建连接
+  + SYN: 同步序号用来发起一个连接
+  + FIN: 发送端完成任务
 * Window size: 16 bit 滑动窗口.
 * Checksum: 16 bit 头部校验和.
 * Urgent pointer: 16 bit 紧急指针.
