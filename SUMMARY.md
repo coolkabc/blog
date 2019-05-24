@@ -4,6 +4,7 @@
 * [Linux](linux/readme.md)
   * [Fun](linux/fun.md)
   * [Tips](linux/tips.md)
+  * [tcpdump抓包显示link-type EN10MB (Ethernet)](linux/tcpdump-en10.md)
   * [PCI简介](linux/pci.md)
   * [策略路由](linux/pbr.md)
   * [OpenSSL-自建CA](linux/openssl-ca.md)
