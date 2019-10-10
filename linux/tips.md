@@ -48,5 +48,9 @@ ssh -N -f -R 57:127.0.0.1:57 root@2.2.2.2
 -R [bind_address:]port:host:hostport  也可以是socket转发;bind_address 只能是回环地址除非开启GatewayPorts; man ssh
 ```
 
+#### Mac 连 console
 
+```
+screen /dev/cu.usbserial 9600
+```
 
